@@ -12,17 +12,6 @@ CREATE DATABASE dbvaccine
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1;
 
-drop index PK_ID_ADMIN;
-
-drop table ADMIN;
-
-drop index PK_ID_EMPLOYES;
-
-drop table EMPLOYES;
-
-drop index PK_ID_VACCINE;
-
-drop table VACCINE;
 
 
 /*==============================================================*/
