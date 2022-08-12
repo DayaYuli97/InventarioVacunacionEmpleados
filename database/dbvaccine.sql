@@ -19,8 +19,8 @@ CREATE DATABASE dbvaccine
 /*==============================================================*/
 create table ADMIN (
    ID_ADMIN             CHAR(36)             not null,
-   "USER"               VARCHAR(15)          null,
-   PASSWORD             VARCHAR(100)         null,
+   USSER               VARCHAR(15)          null,
+   PASS             VARCHAR(100)         null,
    constraint PK_ADMIN primary key (ID_ADMIN)
 );
 
