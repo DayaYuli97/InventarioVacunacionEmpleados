@@ -15,6 +15,8 @@ Para configurar la conexión a la base de datos se debe modificar el archivo apl
 * Los controladores exponene los web service.
 * Las entidades VO, con las que interactua los web service.
 ##Documentación
-Para la documentación de apis se uso swagger2 al cual se puede acceder de manera local mediante el url http://localhost:8081/pkServices/swagger-ui.html
+Para la documentación de apis se uso swagger2 al cual se puede acceder de manera local mediante la url http://localhost:8080/dkService/swagger-ui.html
+## Configuración
+Para instalar correctamente los paquetes se sugiere utilizar el comando ```gradle build ```
 
 
