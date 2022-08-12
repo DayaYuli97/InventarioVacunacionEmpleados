@@ -3,6 +3,14 @@
 /* Created on:     09/08/2022 19:27:05                          */
 /*==============================================================*/
 
+CREATE DATABASE dbvaccine
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Spanish_Spain.1252'
+    LC_CTYPE = 'Spanish_Spain.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
 
 drop index PK_ID_ADMIN;
 
@@ -15,6 +23,7 @@ drop table EMPLOYES;
 drop index PK_ID_VACCINE;
 
 drop table VACCINE;
+
 
 /*==============================================================*/
 /* Table: ADMIN                                                 */
